@@ -343,7 +343,7 @@ input[name="r"]{
 }
 .navigation{
   position: absolute;
-  bottom:30px;
+  bottom:750px;
   left:50%;
   transform: translate(-50%);
   display: flex;
