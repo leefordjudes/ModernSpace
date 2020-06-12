@@ -861,7 +861,7 @@ input[name="r"]{
 	background-attachment:fixed;
 }
 .about-navbar-content{
-	height: 400px;
+height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -880,7 +880,7 @@ input[name="r"]{
 	align-items: center;
 }
 .about-img{
-	height:300px;width: 500px;
+	height:300px;width: 450px;
 }
 .about-content{
   max-width: 1200px;
@@ -906,7 +906,7 @@ input[name="r"]{
 .flex-50{
   display:flex;
   flex-direction: column;
-   width: 330px;
+   width: 300px;
    padding: 30px;
 }
 .flex-50 p {
