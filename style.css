@@ -673,6 +673,7 @@ input[name="r"]{
 	text-align:center;
 	font-family: 'Courgette', cursive;
 	font-style: italic;
+	font-weight: 550;
 }
 .testimonials .test-slider .test-slide{
 	display:none;
