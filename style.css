@@ -342,7 +342,7 @@ input[name="r"]{
 }
 .navigation{
   position: absolute;
-  bottom:750px;
+  top:600;
   left:50%;
   transform: translate(-50%);
   display: flex;
@@ -848,6 +848,11 @@ input[name="r"]{
 	}
 	.design-align div{
 		margin-bottom:10px;
+	}
+}
+@media only screen and (max-width: 450px){
+	.navigation{
+		top: 600;
 	}
 }
 /*_______________________________________________________________________________________*/
