@@ -1012,7 +1012,7 @@ input[name="r"]{
 	}
 }
 
-@media only screen and (max-width: 1090px){
+@media only screen and (max-width: 1024px){
 	.about-img{
 		width: 450px;
 	}
