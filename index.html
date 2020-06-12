@@ -1,0 +1,340 @@
+<html>
+	<head>
+		<title>
+		Modern Space
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+	</head>
+	<body>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script>
+		const slides = document.querySelector(".test-slider").children;
+			const indicatorImages = document.querySelector(".test-slider-indicator").children;
+			for(let i=0; i<indicatorImages.length; i++){
+				indicatorImages[i].addEventListener("click", function(){
+					for(let j=0; j<indicatorImages.length; j++){
+							indicatorImages[j].classList.remove("active");
+						}
+						this.classList.add("active");
+						const id = this.getAttribute("data-id");
+						for(let j=0; j<slides.length; j++){
+							slides[j].classList.remove("active");
+						}
+						slides[id].classList.add("active");
+					}
+					
+				)
+			}
+		</script>
+	<a class="scrollUp" id="scrollToTop">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a>
+	<section>
+		<div class="slidershow middle">
+			<div class="slides" id="slide">
+				<input type="radio" name="r" id="r1" checked>
+				<input type="radio" name="r" id="r2">
+				<input type="radio" name="r" id="r3">
+				<div class="slide s1 index-banner line"> 
+					<span>WELCOME TO MODERN SPACE.</span>
+					<p class="banner-p">we provide best quality</p>
+				</div>
+				<div class="slide index-banner1 line">
+					<span>WE BUILD CUSTOMER TRUST AND CUSTOMER SATISFACTION.</span>
+				</div>
+				<div class="slide index-banner2 line">
+					<span> QUALITY HOMES AND AFFORTABLE PRICE</span>
+				</div>
+			</div>
+			<div class="navigation">
+			  <label for="r1" class="bar"></label>
+			  <label for="r2" class="bar"></label>
+			  <label for="r3" class="bar"></label>
+			</div>
+		 </div>
+		<header >
+		<nav class="h2">
+			<input type="checkbox" id="check">
+			<label for="check"  class="checkbtn">
+				<i class="fa fa-bars" id="one"></i>
+				<i class="fa fa-close" id="two"></i>
+			</label>			
+			<div class="menu">
+			<a  href="index.html" class="hea-logo">
+				<i class="fa fa-meetup fa-logo" aria-hidden="true"></i>
+			</a>
+			<ul class="float">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="project.html">PROJECTS</a></li>
+				<li><a href="service.html">SERVICES</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+			</div>
+		</nav>
+	</header>
+	</section>
+	<section class="content fx-column">
+		<div class="fx-row s2">
+			<div class="content-intro">
+				<span class="title">We Are Build Your Dreams</span>
+				<p class="p">
+					we work closely with them and their architects to ensure a quality product that is delivered on time and
+					within budget.The management team at Modernspace Firm is always available for discussion
+					and consultation and we work with our clients to choose the best, long-term construction solutions 
+					for their particular project.
+				</p>
+				<span class="mt-20"><a href="" class="content-btn">About Us</a></span>
+			</div>
+			<div class="progress-bar">
+				<div class="progress">			
+				  <div class="progress-value"><span>Quality</span></div>  
+				</div>
+				<div class="progress">			
+				  <div class="progress-value1"><span>Development</span></div>  
+				</div>
+				<div class="progress">			
+				  <div class="progress-value2"><span>Marketing</span></div>  
+				</div>
+			</div>
+		</div>
+	</section>
+		<div class="choose-content">
+			<div class="choose-img">
+				<img src="img/choose.jpg">
+			</div>
+			<div class="fx-column choose-blog"> 
+				<span class="choose-title">Why Choose Us</span>
+				<div class="fx-column">
+					<div class="fx-row justify-space a1 mb-20">
+						<div style="flex: 0 0 20%">
+						<i class="fa fa-user circle-fa" aria-hidden="true" style="display:flex"></i>
+						</div>
+						<div class="fx-column" style="flex: 0 0 80%">
+						<span class="ch-title">PROFESSIONAL BUILE</span>
+						<p style="margin-top:0;">A team that works with unwavering focus and dedication to accomplish each task</p>
+						</div>
+					</div>
+					<div class="fx-row justify-space a1 mb-20">
+						<div style="flex: 0 0 20%">
+						<i class="fa fa-cogs circle-fa" aria-hidden="true" style="display:flex"></i>
+						</div>
+						<div class="fx-column" style="flex: 0 0 80%">
+						<span class="ch-title">PASSIONATE</span>
+						<p style="margin-top:0;">To maintain the highest levels of professionalism, integrity, honesty</p>
+						</div>
+					</div>
+					<div class="fx-row justify-space a1 mb-20">
+						<div style="flex: 0 0 20%">
+						<i class="fa fa-user circle-fa" aria-hidden="true" style="display:flex"></i>
+						</div>
+						<div class="fx-column" style="flex: 0 0 80%">
+						<span class="ch-title">BEST QUALITY</span>
+						<p style="margin-top:0;">We strive for professional excellence to the highest standards possible consistent 
+						with the goals of the project.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fx-column content">
+			<div class="justify fx-column design">
+				<span class="title">What We Provide</span>
+				<span class="long-dash"></span>
+				<p>To maintain the highest levels of professionalism, integrity</p>
+			</div>
+			<div class="fx-row design-align">
+				<div class="fx-column">
+					<div class="card-container">
+					  <div class="card">
+						<div class="card-contents card-front">
+						  <div class="card-depth">
+							<span class="subtitle" style="color: white"> Architecture</span>
+							<p class="align-center" style="color: white">To maintain the highest levels of professionalism, integrity, honesty.</p>
+						  </div>
+						</div>
+						<div class="card-contents card-back">
+						  <div class="card-depth">
+							<img src="img/archi.jpg"> 
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="fx-column">
+					<div class="card-container">
+					  <div class="card">
+						<div class="card-contents card-front">
+						  <div class="card-depth">
+							<div class="fx-column" style="display: flex;justify-content:center;align-items:center;">
+							<span class="subtitle" style="color: white">Landscape</span>
+							</div>
+							<p class="align-center" style="color: white">To maintain the highest levels of professionalism, integrity, honesty.</p>
+						  </div>
+						</div>
+						<div class="card-contents card-back">
+						  <div class="card-depth">
+							<img src="img/land.jpg"> 
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="fx-column add-mar">
+					<div class="card-container">
+					  <div class="card">
+						<div class="card-contents card-front">
+						  <div class="card-depth">
+							<span class="subtitle" style="color: white">Interiors</span>
+							<p class="align-center" style="color: white">To maintain the highest levels of professionalism, integrity, honesty.</p>
+						  </div>
+						</div>
+						<div class="card-contents card-back">
+						  <div class="card-depth">
+							<img src="img/interior.jpg"> 
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="justify fx-column" style="padding: 60px 0">
+			<div class="justify fx-column mb-50">
+				<span class="title">Our Gallery</span>
+				<span class="long-dash"></span>
+			</div>
+			<div class="img-gallary">
+				<div class="wrapper1 mr-10">
+					<img src="img/home4.jpg" alt="" class="pic1">
+				</div>
+				<div class="wrapper1 mr-10 re-mr">
+					<img src="img/home5.png" alt="" class="pic1">
+				</div>
+				<div class="wrapper1 mr-10">
+					<img src="img/home6.webp" alt="" class="pic1">
+				</div>
+				<div class="wrapper1 ad-mr">
+					<img src="img/land5.jpg" alt="" class="pic1">
+				</div>
+				<div class="wrapper1 mr-10">
+					<img src="img/home8.jpeg" alt="" class="pic1">
+				</div>
+				<div class="wrapper1 mr-10 re-mr">
+					<img src="img/interior1.jpg" alt="" class="pic1">
+				</div>
+				<div class="wrapper1 mr-10">
+					<img src="img/gall.jpg" alt="" class="pic1">
+				</div>
+				<div class="wrapper1">
+					<img src="img/gall1.jpeg" alt="" class="pic1">
+				</div>
+			</div>
+		</div>
+		<div class="content1 justify mb-50">
+			<div class="testimonials">
+				<div class="testimonial-container">
+					<div class="justify fx-column">
+						<span class="title">Testimonials</span>
+						<span class="long-dash"></span>
+					</div>
+					<div class="test-slider">
+						<div class="test-slide active">
+							<div class="mb-50">
+							<i class="fa fa-quote-left quote" ></i>
+							<p>I would recommended the team Modernspace to my friends,  had good experience with them.
+							At all times Modernspace staff carried out their duties in a very professional manner.
+							</p>
+							<i class="fa fa-quote-right quote-r" ></i>
+							</div>
+							<div class="client-info">
+								<h3>John Wesley </h3>
+							</div>
+						</div>
+						<div class="test-slide">
+							<div class="mb-50">
+								<i class="fa fa-quote-left quote" ></i>
+								<p>I would recommended the team Modernspace to my friends,  had good experience with them.
+								At all times Modernspace staff carried out their duties in a very professional manner.
+								</p>
+								<i class="fa fa-quote-right quote-r" ></i>
+							</div>
+							<div class="client-info">
+								<h3>Steve</h3>
+							</div>
+						</div>
+						<div class="test-slide">
+							<div class="mb-50">
+								<i class="fa fa-quote-left quote" ></i>
+								<p>I would recommended the team Modernspace to my friends,  had good experience with them.
+								At all times Modernspace staff carried out their duties in a very professional manner.
+								</p>
+								<i class="fa fa-quote-right quote-r" ></i>
+							</div>
+							<div class="client-info">
+								<h3>Jenifer </h3>
+							</div>
+						</div>
+					</div>
+					<div class="test-slider-indicator">
+						<img src="img/pro2.png" class="active" data-id="0">
+						<img src="img/profile1.png" data-id="1">
+						<img src="img/pro3.png" data-id="2">
+					</div>
+				</div>
+			</div>	
+		</div>
+		<footer class="footer-back">
+			<div class="footer">
+				<div class="fx-column">
+					<p class="footer-title">Useful Links</p>
+					<div class="footer-link">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="service.html">Service</a>
+						<a href="project.html">Project</a>
+						<a href="contact.html">Contacts</a>
+					</div>
+				</div>
+				<div class="fx-column">
+					<p class="footer-title">Contacts</p>
+					<div class="footer-link">
+						<div class="f-list">
+							<i class="fa fa-map-marker"></i>
+							<div class="fx-column">
+								<span class="pb-10">SF - M 48, Lucky Colony, </span>
+								<span class="pb-10">Anbu Nagar, Tirunelveli - 7.</span>
+							</div>
+						</div>
+						<div class="f-list">
+							<i class="fas fa-phone-alt"></i>
+							<div class="fx-column">
+								<span class="pb-10">0462 - 2534228</span>
+								<span class="pb-10">8945 30060</span>
+							</div>
+						</div>
+						<div class="f-list">
+							<i class="fa fa-envelope-o"></i>
+							<span class="pb-10">modernspace@rediffmail.com</span>
+						</div>
+					</div>
+				</div>
+				<div class="fx-column">
+					<a class="footer-logo" href="index.html"><i class="fa fa-meetup foo-logo" aria-hidden="true"></i></a>
+					<div class="fx-row social-icons">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
