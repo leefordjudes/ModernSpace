@@ -12,25 +12,6 @@
 	<script type="text/javascript" src="index.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
-	<script>
-		const slides = document.querySelector(".test-slider").children;
-			const indicatorImages = document.querySelector(".test-slider-indicator").children;
-			for(let i=0; i<indicatorImages.length; i++){
-				indicatorImages[i].addEventListener("click", function(){
-					for(let j=0; j<indicatorImages.length; j++){
-							indicatorImages[j].classList.remove("active");
-						}
-						this.classList.add("active");
-						const id = this.getAttribute("data-id");
-						for(let j=0; j<slides.length; j++){
-							slides[j].classList.remove("active");
-						}
-						slides[id].classList.add("active");
-					}
-					
-				)
-			}
-		</script>
 	<a class="scrollUp" id="scrollToTop">
 		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
 	</a>
@@ -336,5 +317,24 @@
 				</div>
 			</div>
 		</footer>
+		<script>
+		const slides = document.querySelector(".test-slider").children;
+			const indicatorImages = document.querySelector(".test-slider-indicator").children;
+			for(let i=0; i<indicatorImages.length; i++){
+				indicatorImages[i].addEventListener("click", function(){
+					for(let j=0; j<indicatorImages.length; j++){
+							indicatorImages[j].classList.remove("active");
+						}
+						this.classList.add("active");
+						const id = this.getAttribute("data-id");
+						for(let j=0; j<slides.length; j++){
+							slides[j].classList.remove("active");
+						}
+						slides[id].classList.add("active");
+					}
+					
+				)
+			}
+		</script>
 </body>
 </html>
