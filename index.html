@@ -6,12 +6,16 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	</head>
 	<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="index.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>		
 	<a class="scrollUp" id="scrollToTop">
 		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
 	</a>
@@ -21,14 +25,14 @@
 				<input type="radio" name="r" id="r1" checked>
 				<input type="radio" name="r" id="r2">
 				<input type="radio" name="r" id="r3">
-				<div class="slide s1 index-banner line"> 
-					<span>WELCOME TO MODERN SPACE.</span>
-					<p class="banner-p">we provide best quality</p>
+				<div class="slider s1 index-banner line "> 
+					<span class="animate__animated animate__flipInX">WELCOME TO MODERN SPACE.</span>
+					<p class="banner-p animate__animated animate__slideInLeft">we provide best quality</p>
 				</div>
-				<div class="slide index-banner1 line">
-					<span>WE BUILD CUSTOMER TRUST AND CUSTOMER SATISFACTION.</span>
+				<div class="slider index-banner1 line">
+					<span >WE BUILD CUSTOMER SATISFACTION.</span>
 				</div>
-				<div class="slide index-banner2 line">
+				<div class="slider index-banner2 line">
 					<span> QUALITY HOMES AND AFFORTABLE PRICE</span>
 				</div>
 			</div>
@@ -39,26 +43,26 @@
 			</div>
 		 </div>
 		<header >
-		<nav class="h2">
-			<input type="checkbox" id="check">
-			<label for="check"  class="checkbtn">
-				<i class="fa fa-bars" id="one"></i>
-				<i class="fa fa-close" id="two"></i>
-			</label>			
-			<div class="menu">
-			<a  href="index.html" class="hea-logo">
-				<i class="fa fa-meetup fa-logo" aria-hidden="true"></i>
-			</a>
-			<ul class="float">
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="project.html">PROJECTS</a></li>
-				<li><a href="service.html">SERVICES</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
-			</ul>
-			</div>
-		</nav>
-	</header>
+			<nav class="nav1">
+				<input type="checkbox" id="check">
+				<label for="check"  class="checkbtn">
+					<i class="fa fa-bars" id="one"></i>
+					<i class="fa fa-close" id="two"></i>
+				</label>			
+				<div class="menu">
+				<a  href="index.html" class="hea-logo">
+					<i class="fa fa-meetup fa-logo" aria-hidden="true"></i>
+				</a>
+				<ul class="float">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="project.html">PROJECTS</a></li>
+					<li><a href="service.html">SERVICES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+				</div>
+			</nav>
+		</header>
 	</section>
 	<section class="content fx-column">
 		<div class="fx-row s2">
@@ -72,14 +76,14 @@
 				</p>
 				<span class="mt-20"><a href="" class="content-btn">About Us</a></span>
 			</div>
-			<div class="progress-bar">
-				<div class="progress">			
+			<div class="progress-div">
+				<div class="progresss">			
 				  <div class="progress-value"><span>Quality</span></div>  
 				</div>
-				<div class="progress">			
+				<div class="progresss">			
 				  <div class="progress-value1"><span>Development</span></div>  
 				</div>
-				<div class="progress">			
+				<div class="progresss">			
 				  <div class="progress-value2"><span>Marketing</span></div>  
 				</div>
 			</div>
@@ -200,7 +204,7 @@
 				<div class="wrapper1 mr-10">
 					<img src="img/home6.webp" alt="" class="pic1">
 				</div>
-				<div class="wrapper1 ad-mr">
+				<div class="wrapper1 ad-mr mr-10">
 					<img src="img/land5.jpg" alt="" class="pic1">
 				</div>
 				<div class="wrapper1 mr-10">
@@ -218,123 +222,112 @@
 			</div>
 		</div>
 		<div class="content1 justify mb-50">
-			<div class="testimonials">
-				<div class="testimonial-container">
-					<div class="justify fx-column">
-						<span class="title">Testimonials</span>
-						<span class="long-dash"></span>
-					</div>
-					<div class="test-slider">
-						<div class="test-slide active">
-							<div class="mb-50">
+			<div class="container">
+				<div class="justify fx-column">
+				<span class="title">Testimonials</span>
+				<span class="long-dash"></span>
+			</div>
+			  <div id="myCarousel" class="carousel slide testimonial-container" data-ride="carousel">
+				<!-- Indicators -->
+				<div class="carousel-indicators test-slider-indicator" style="bottom: -130px;">
+					<img src="img/pro2.png" data-target="#myCarousel" data-slide-to="0" class="active" style="height: 80px;width:80px;margin:10px">
+					<img src="img/pro3.png" data-target="#myCarousel" data-slide-to="1" style="height: 80px;width:80px;margin:10px">
+					<img  src="img/profile1.png" data-target="#myCarousel" data-slide-to="2" style="height: 80px;width:80px;margin:10px">
+				</div>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				  <div class="item active">
+					<div class="test-slide">
+						<div class="mb-50">
 							<i class="fa fa-quote-left quote" ></i>
 							<p>I would recommended the team Modernspace to my friends,  had good experience with them.
 							At all times Modernspace staff carried out their duties in a very professional manner.
 							</p>
 							<i class="fa fa-quote-right quote-r" ></i>
-							</div>
-							<div class="client-info">
-								<h3>John Wesley </h3>
-							</div>
 						</div>
-						<div class="test-slide">
-							<div class="mb-50">
-								<i class="fa fa-quote-left quote" ></i>
-								<p>I would recommended the team Modernspace to my friends,  had good experience with them.
-								At all times Modernspace staff carried out their duties in a very professional manner.
-								</p>
-								<i class="fa fa-quote-right quote-r" ></i>
-							</div>
-							<div class="client-info">
-								<h3>Steve</h3>
-							</div>
-						</div>
-						<div class="test-slide">
-							<div class="mb-50">
-								<i class="fa fa-quote-left quote" ></i>
-								<p>I would recommended the team Modernspace to my friends,  had good experience with them.
-								At all times Modernspace staff carried out their duties in a very professional manner.
-								</p>
-								<i class="fa fa-quote-right quote-r" ></i>
-							</div>
-							<div class="client-info">
-								<h3>Jenifer </h3>
-							</div>
+						<div class="client-info">
+							<span class="subtitle">John Wesley</span>
 						</div>
 					</div>
-					<div class="test-slider-indicator">
-						<img src="img/pro2.png" class="active" data-id="0">
-						<img src="img/profile1.png" data-id="1">
-						<img src="img/pro3.png" data-id="2">
+				  </div>
+				  <div class="item">
+					<div class="test-slide">
+						<div class="mb-50">
+							<i class="fa fa-quote-left quote" ></i>
+							<p>I would recommended the team Modernspace to my friends,  had good experience with them.
+							At all times Modernspace staff carried out their duties in a very professional manner.
+							</p>
+							<i class="fa fa-quote-right quote-r" ></i>
+						</div>
+						<div class="client-info">
+							<span class="subtitle">Jenifer</span>
+						</div>
 					</div>
+				  </div>
+				  <div class="item">
+					<div class="test-slide">
+						<div class="mb-50">
+							<i class="fa fa-quote-left quote" ></i>
+							<p>I would recommended the team Modernspace to my friends,  had good experience with them.
+							At all times Modernspace staff carried out their duties in a very professional manner.
+							</p>
+							<i class="fa fa-quote-right quote-r" ></i>
+						</div>
+						<div class="client-info">
+							<span class="subtitle">Steve</span>
+						</div>
+					</div>
+				  </div>
 				</div>
-			</div>	
+			  </div>
+			</div>
 		</div>
 		<footer class="footer-back">
-			<div class="footer">
-				<div class="fx-column">
-					<p class="footer-title">Useful Links</p>
-					<div class="footer-link">
-						<a href="index.html">Home</a>
-						<a href="about.html">About</a>
-						<a href="service.html">Service</a>
-						<a href="project.html">Project</a>
-						<a href="contact.html">Contacts</a>
-					</div>
+		<div class="footer">
+			<div class="fx-column">
+				<p class="footer-title">Useful Links</p>
+				<div class="footer-link">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="service.html">Service</a>
+					<a href="project.html">Project</a>
+					<a href="contact.html">Contacts</a>
 				</div>
-				<div class="fx-column">
-					<p class="footer-title">Contacts</p>
-					<div class="footer-link">
-						<div class="f-list">
-							<i class="fa fa-map-marker"></i>
-							<div class="fx-column">
-								<span class="pb-10">SF - M 48, Lucky Colony, </span>
-								<span class="pb-10">Anbu Nagar, Tirunelveli - 7.</span>
-							</div>
-						</div>
-						<div class="f-list">
-							<i class="fas fa-phone-alt"></i>
-							<div class="fx-column">
-								<span class="pb-10">0462 - 2534228</span>
-								<span class="pb-10">8945 30060</span>
-							</div>
-						</div>
-						<div class="f-list">
-							<i class="fa fa-envelope-o"></i>
-							<span class="pb-10">modernspace@rediffmail.com</span>
+			</div>
+			<div class="fx-column">
+				<p class="footer-title">Contacts</p>
+				<div class="footer-link">
+					<div class="f-list">
+						<i class="fa fa-map-marker"></i>
+						<div class="fx-column">
+							<span class="pb-10">SF - M 48, Lucky Colony, </span>
+							<span class="pb-10">Anbu Nagar, Tirunelveli - 7.</span>
 						</div>
 					</div>
-				</div>
-				<div class="fx-column">
-					<a class="footer-logo" href="index.html"><i class="fa fa-meetup foo-logo" aria-hidden="true"></i></a>
-					<div class="fx-row social-icons">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						</ul>
+					<div class="f-list">
+						<i class="fas fa-phone-alt"></i>
+						<div class="fx-column">
+							<span class="pb-10">0462 - 2534228</span>
+							<span class="pb-10">8945 30060</span>
+						</div>
+					</div>
+					<div class="f-list">
+						<i class="fa fa-envelope-o"></i>
+						<span class="pb-10">modernspace@rediffmail.com</span>
 					</div>
 				</div>
 			</div>
-		</footer>
-		<script>
-		const slides = document.querySelector(".test-slider").children;
-			const indicatorImages = document.querySelector(".test-slider-indicator").children;
-			for(let i=0; i<indicatorImages.length; i++){
-				indicatorImages[i].addEventListener("click", function(){
-					for(let j=0; j<indicatorImages.length; j++){
-							indicatorImages[j].classList.remove("active");
-						}
-						this.classList.add("active");
-						const id = this.getAttribute("data-id");
-						for(let j=0; j<slides.length; j++){
-							slides[j].classList.remove("active");
-						}
-						slides[id].classList.add("active");
-					}
-					
-				)
-			}
-		</script>
+			<div class="fx-column">
+				<a  href="index.html" class="footer-logo"><i class="fa fa-meetup foo-logo" aria-hidden="true"></i></a>
+				<div class="fx-row social-icons">
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
