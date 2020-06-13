@@ -702,6 +702,15 @@ input[name="r"]{
   .content-img{
     width:400px;
   }
+	.line {
+	  height:480px;
+  }
+  .slidershow{
+	  height:480px;
+  }
+  .navigation{
+	  bottom: 140px;
+  }
 }
 @media only screen and (max-width: 890px){
 	.card{
@@ -717,6 +726,15 @@ input[name="r"]{
 	.choose-title, .title{
 		font-size: 23px;
 	}
+	.line {
+	  height:450px;
+  }
+  .slidershow{
+	  height:450px;
+  }
+  .navigation{
+	  bottom: 165px;
+  }
 }
 @media only screen and (max-width: 850px){
 	.design-align{
@@ -738,6 +756,15 @@ input[name="r"]{
   }
   .line span, .index-banner1 span, .index-banner2 span{
 	  font-size: 25px;
+  }
+	.line {
+	  height:400px;
+  }
+  .slidershow{
+	  height:400px;
+  }
+  .navigation{
+	  bottom: 240px;
   }
   
 }
