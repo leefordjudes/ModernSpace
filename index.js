@@ -20,13 +20,13 @@ $(document).ready(function () {
 
 /* sticky nav bar*/
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 100){ 
+	if ($(this).scrollTop() > 350){ 
 		$('.menu').addClass("sticky1");
-		$('.h2').addClass("color");
+		$('.nav1').addClass("color");
 	  }
 	  else{
 		$('.menu').removeClass("sticky1");
-		$('.h2').removeClass("color");
+		$('.nav1').removeClass("color");
 	  }
 	});
 
@@ -56,5 +56,3 @@ $(document).ready(function () {
     $(this).addClass('service-active')
   });
 });
-
-
