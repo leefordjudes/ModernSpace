@@ -958,6 +958,7 @@ input[name="r"]{
 	.navigation{
 		bottom: 450px;
 	}
+}
 @media only screen and (max-width: 320px){
 	.navigation{
 		bottom: 200px;
