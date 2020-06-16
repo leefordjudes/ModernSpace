@@ -939,14 +939,20 @@ input[name="r"]{
 		width:300px;
 	}
 }
+@media only screen and (max-width: 414px){
+	.navigation{
+		bottom: 370px;
+	}
+}
 @media only screen and (max-width: 411px){
 	.navigation{
 		bottom: 450px;
 	}
 }
-@media only screen and (max-width: 414px){
+
+@media only screen and (max-width: 375px){
 	.navigation{
-		bottom: 370px;
+		bottom: 450px;
 	}
 }
 @media only screen and (max-width: 360px){
@@ -954,11 +960,7 @@ input[name="r"]{
 		bottom: 290px;
 	}
 }
-@media only screen and (max-width: 375px){
-	.navigation{
-		bottom: 450px;
-	}
-}
+
 @media only screen and (max-width: 320px){
 	.navigation{
 		bottom: 200px;
