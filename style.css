@@ -1718,7 +1718,7 @@ background: red;color: white;padding: 10px
 .long-dash{
   border: 2px solid orangered;
   width: 60px;
-  border-radius: 10px;
+    border-radius: 10px;
 }
 .contact-subtitle{
   font-size: 19px;
@@ -1727,7 +1727,7 @@ background: red;color: white;padding: 10px
 }
 textarea{
 	position:relative;
-	height: 40px;
+	height: 80px;
     font-size: 15px;
     padding:10px;
     border-radius: 5px;
@@ -1981,4 +1981,3 @@ justify-content: center;
 	justify-content:flex-start;
 }
 }
-
