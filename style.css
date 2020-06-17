@@ -993,7 +993,7 @@ input[name="r"]{
 
 @media only screen and (max-width: 375px){
 	.navigation{
-		bottom: 450px;
+		bottom: 300px;
 	}
 }
 @media only screen and (max-width: 360px){
