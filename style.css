@@ -767,6 +767,7 @@ input[name="r"]{
 @media only screen and (max-width: 850px){
 	.nav ul li a{
 		font-size: 14px;
+		padding: 10px 8px;
 	}
 	.design-align{
 		justify-content: space-evenly;
