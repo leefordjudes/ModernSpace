@@ -789,6 +789,10 @@ input[name="r"]{
   .line span, .index-banner1 span, .index-banner2 span{
 	  font-size: 25px;
   }
+	.brand {
+	font-size: 17px;
+	}
+	
   .line {
 	  height:400px;
   }
