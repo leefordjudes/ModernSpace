@@ -880,6 +880,9 @@ input[name="r"]{
 	.line span{
 		width: 400px;
 	}
+	.menu{
+	padding: 0 10px;
+	}
 }
 @media only screen and (max-width:640px){
 		label #one{
