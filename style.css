@@ -1575,10 +1575,9 @@ background: red;color: white;padding: 10px
 }
 
 .project-link{
-  background: #8c868621;
+  background: #8c868c2b;
   padding: 10px 15px;
   border-radius: 5px;
-  border: 1px solid #8c868600;
   font-size: 17px;
   margin-bottom: 20px;
   cursor: pointer;
