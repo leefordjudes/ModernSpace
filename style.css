@@ -354,7 +354,7 @@ input[name="r"]{
 	font-size: 35px;
 	font-weight:800;
 	color: orangered;
-	text-shadow: 0px 7px 5px #525050;
+	text-shadow: 0px 7px 3px #333;
 }
 .banner-p{
 	font-size: 20px;
