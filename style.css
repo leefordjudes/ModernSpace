@@ -851,6 +851,17 @@ input[name="r"]{
 	  bottom: 290px;
   }
 }
+@media only screen and (max-width: 715px){
+	.float{
+	padding-left: 10px;
+	}
+	.nav1 ul li a{
+	padding: 10px 5px;
+	}
+	.brand{
+	font-size: 17px;
+	}
+}
 @media only screen and (max-width: 683px){
 	.mr-10{
 		margin-right: 0;
