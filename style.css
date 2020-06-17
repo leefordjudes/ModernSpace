@@ -1,8 +1,12 @@
+html {
+  font-size: 62.5%;
+}
+
 body{
-	margin: 0;
-	font-size: 15px;
-    line-height: 1.7 !important;
-	font-family: sans-serif;
+	word-spacing: 0.3rem;  
+	  font-family: Muli,BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	  line-height: 1.8 !important;
+	  font-size: 1.6rem;
 }
 ul{
 	margin:0 !important;
@@ -114,6 +118,8 @@ a{
 }
 
 .scrollUp {
+	 bottom: 3rem;
+    right: 3rem; 
     display: flex;
     align-items: center;
     font-size: 25px;
@@ -126,9 +132,7 @@ a{
     border-radius: 50%;
     bottom: 70px;
 	z-index:5;
-    top: 580px;
-    height: 50px;
-    right: 30px;
+	height: 50px;
     width: 50px;
 }
 
