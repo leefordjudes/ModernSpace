@@ -346,8 +346,10 @@ input[name="r"]{
 	
 }
 .line span{
-	font-size: 35px;font-weight:800;
+	font-size: 35px;
+	font-weight:800;
 	color: orangered;
+	text-shadow: 0px 7px 5px #525050;
 }
 .banner-p{
 	font-size: 23px;
