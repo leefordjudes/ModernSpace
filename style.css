@@ -863,6 +863,9 @@ input[name="r"]{
 	.brand{
 	font-size: 17px;
 	}
+	.banner-p{
+	font-size:17px;
+	}
 }
 @media only screen and (max-width: 683px){
 	.mr-10{
