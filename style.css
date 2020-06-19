@@ -895,6 +895,11 @@ input[name="r"]{
 	.menu{
 	padding: 0 10px;
 	}
+	.card-depth img{
+		height: 225px;
+		width:225px;
+	}
+	
 }
 @media only screen and (max-width:640px){
 		label #one{
@@ -1786,7 +1791,7 @@ background: red;color: white;padding: 10px
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    background: #ffe4c487;
+    background:#ff45001a;
     border-radius: 50%;
 	transition: .6s;
 }
@@ -1803,6 +1808,7 @@ background: red;color: white;padding: 10px
     width: 280px;
 	align-items: center;
 	justify-content: center;
+	padding:20px;
 }
 .contact-box:hover .icon{
 	transform: translate(0, -15px);
