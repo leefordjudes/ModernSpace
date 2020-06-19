@@ -641,7 +641,7 @@ input[name="r"]{
 }
 .carousel-indicators{
 	bottom: -70px;
-	z-index: 0;
+	z-index: 0 !important;
 }
 .carousel-indicators img{
 	height: 100px;
