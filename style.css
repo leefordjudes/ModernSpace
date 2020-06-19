@@ -123,6 +123,7 @@ a{
     display: flex;
     align-items: center;
     font-size: 25px;
+	z-index:0;
     color: #fff;
     justify-content: center;
 	cursor:pointer;
@@ -226,6 +227,7 @@ nav .float{
     justify-content: space-between;
     padding: 0 45px;
     align-items: center;
+	z-index: 1;
 }
 @media (max-width: 800px){
 	label.hea-logo{
@@ -640,6 +642,7 @@ input[name="r"]{
 }
 .carousel-indicators{
 	bottom: -70px;
+	z-index: 0;
 }
 .carousel-indicators img{
 	height: 100px;
