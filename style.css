@@ -276,14 +276,14 @@ input[name="r"]{
 }
 
 .index-banner{
-	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/home.jpg);
+	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/ph1.jpg);
 	background-size:cover;
 	background-position: center;
     background-attachment: fixed;
 }
 
 .index-banner1{
-	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/home11.jpg);
+	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/ph11.jpg);
 	background-size:cover;
 	background-position: center;
     background-attachment: fixed;
@@ -296,7 +296,7 @@ input[name="r"]{
 	color: orangered;
 }
 .index-banner2{
-	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/home111.jpg);
+	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/ph111.jpg);
 	background-size:cover;
 	background-position: center;
     background-attachment: fixed;
@@ -747,7 +747,7 @@ input[name="r"]{
 		font-size: 18px;
 	}
 	.card-depth img{
-		width: 250px;
+		width: 200px;
 	}
 	.choose-title, .title{
 		font-size: 23px;
@@ -1024,7 +1024,7 @@ input[name="r"]{
 .about-navbar{
 	width:100%;
 	height:400px;
-	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/about5.jpg);
+	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/a1.jpg);
 	background-position:center;
 	background-size:cover;
 	background-attachment:fixed;
@@ -1280,7 +1280,7 @@ input[name="r"]{
 .service-navbar{
 	width:100%;
 	height:400px;
-	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/s1.jpeg);
+	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/s11.jpg);
 	background-position:center;
 	background-size:cover;
 	background-attachment:fixed;
@@ -1734,7 +1734,7 @@ background: red;color: white;padding: 10px
 .contact-navbar{
 	width:100%;
 	height:400px;
-	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/c6.jpeg);
+	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/c6.jpg);
 	background-position:center;
 	background-size:cover;
 	background-attachment:fixed;
