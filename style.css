@@ -571,8 +571,8 @@ input[name="r"]{
   perspective: inherit;
 }
 .card-depth img{
-	height: 250px;
-	width:220px;
+	height: 220px;
+	width:225px;
 	border-radius:10px;
 }
 .card-front {
@@ -776,9 +776,7 @@ input[name="r"]{
 	.design-align{
 		justify-content: space-evenly;
 	}
-	.add-mar{
-		margin-top: 50px;
-	}
+	
 	.s2{
 		flex-direction: column;
 	}
@@ -807,6 +805,12 @@ input[name="r"]{
 	  bottom: 270px;
   }
   
+}
+
+@media only screen and (max-width: 795px){
+.add-mar{
+		margin-top: 50px;
+	}
 }
 
 @media only screen and (max-width: 760px){
