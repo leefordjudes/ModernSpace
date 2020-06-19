@@ -564,6 +564,7 @@ input[name="r"]{
   top: 0;
   left: 0;
   backface-visibility: hidden;
+	padding:20px;
 }
 
 .card-depth {
@@ -571,8 +572,8 @@ input[name="r"]{
   perspective: inherit;
 }
 .card-depth img{
-	height: 220px;
-	width:225px;
+	    height: 230px;
+    width: 245px;
 	border-radius:10px;
 }
 .card-front {
@@ -744,10 +745,11 @@ input[name="r"]{
 		height: 230px;
 	}
 	.subtitle{
-		font-size: 18px;
+		font-size: 19px;
 	}
 	.card-depth img{
-		width: 200px;
+		    width: 225px;
+    height: 220px;
 	}
 	.choose-title, .title{
 		font-size: 23px;
