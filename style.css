@@ -1773,58 +1773,7 @@ background: red;color: white;padding: 10px
   color: orangered;
   font-weight: 600;
 }
-textarea{
-	position:relative;
-	height: 80px;
-    font-size: 15px;
-    padding:10px;
-    border-radius: 5px;
-    border-bottom: 2px solid #ccc;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	display:inline-block;
-	transition: all ease 0.5s;
-	resize: vertical;
-}
-input{
-	position:relative;
-	height: 40px;
-    font-size: 15px;
-    padding:10px;
-    border-radius: 5px;
-    border-bottom: 2px solid #ccc;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	display:inline-block;
-	
-	transition: all ease 0.5s;
-}
-textarea::before, input::before {
-	transform:scaleX(0);
-	transform-origin: right;
-	position:absolute;
-	content:'';
-	left:0;
-	bottom:0;
-	width:100%;
-	height:3px;
-	background:orangered;
-	transition:transform .2s linear;
-}
-textarea:focus, input:focus{
-	outline:none;
-	transform: scaleX(1);
-	transform-origin: left;	
-	border-bottom: 2px solid orangered;
-}
 
-
-.form{
-	box-shadow:0 0 20px 1px #ccc;
-	padding:30px
-}
 .fx-column .contact-justify input{
 	flex: 0 0 48%;
 }
@@ -1837,15 +1786,17 @@ textarea:focus, input:focus{
   color:#4f4d4d;
   text-align: center;
 }
-.contact-button{
-  padding: 7px 15px;
-  background-color: orangered;
-  color:white;
-  font-size: 16px;
-  font-weight: 500;
-  border: 1px solid orangered;
-  border-radius: 5px;
-  cursor: pointer;
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:600px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:600px;
 }
 @media only screen and (max-width: 860px){
 	.contact-title{
