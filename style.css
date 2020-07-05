@@ -1764,15 +1764,36 @@ background: red;color: white;padding: 10px
   flex-direction: column;
 }
 
+
+input{
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 30px !important;
+    padding: 0 10px;
+
+}
+
+textarea{
+	height: 180px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 20px !important;
+    padding: 0 10px;
+	resize:vertical;
+}
+
 .mapouter{
 	position:relative;
 	text-align:right;
-	height:500px;
+	height:450px;
 }
 .gmap_canvas {
 	overflow:hidden;
 	background:none!important;
-	height:500px;
+	height:450px;
 }
 .long-dash{
   border: 2px solid orangered;
