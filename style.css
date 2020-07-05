@@ -1789,6 +1789,7 @@ textarea{
 	position:relative;
 	text-align:right;
 	height:450px;
+	z-index: -1;
 }
 .gmap_canvas {
 	overflow:hidden;
