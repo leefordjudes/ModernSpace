@@ -1751,11 +1751,11 @@ background: red;color: white;padding: 10px
 
 .contact-navbar{
 	width: 100%;
-    height: 500px;
-    background: linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/c1.jpg);
-    background-attachment: fixed;
+	height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/c1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .contact-navbar-content{
