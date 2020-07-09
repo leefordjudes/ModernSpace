@@ -1034,6 +1034,7 @@ input[name="r"]{
 	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.5)),url(img/a11.jpg);
 /* 	background-position:center;
 	background-size:cover; */
+	background-size:contain;
 	background-attachment:fixed;
 }
 .about-navbar-content {
@@ -1291,6 +1292,7 @@ input[name="r"]{
 /* 	background-position:center;
 	background-size:cover; */
 	background-attachment:fixed;
+	background-size:contain;
 }
 .service-navbar-content{
 	height: 500px;
@@ -1547,6 +1549,7 @@ background: red;color: white;padding: 10px
 /* 	background-position:center;
 	background-size:cover; */
 	background-attachment:fixed;
+	background-size:contain;
 }
 .project-navbar-content{
 	height: 500px;
