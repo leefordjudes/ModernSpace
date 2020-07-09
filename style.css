@@ -1553,8 +1553,8 @@ background: red;color: white;padding: 10px
 
 
 .project-navbar{
-	width: 100%;
-	height: 100%;
+width: 100%;
+height: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/prrt.jpg);
     background-size: cover;
     background-position: center;
