@@ -1750,10 +1750,12 @@ background: red;color: white;padding: 10px
 /* contact */
 
 .contact-navbar{
-	width:100%;
-	height:480px;
-	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/contactus.jpg);
-	background-attachment:fixed;
+	width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/c1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contact-navbar-content{
