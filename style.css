@@ -1042,7 +1042,7 @@ input[name="r"]{
 background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,8, 0.4)),url(img/abt.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position:bottom;
+    background-position:center;
     background-repeat: no-repeat;
 }
 .about-navbar-content {
@@ -1559,6 +1559,7 @@ height: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 .project-navbar-content{
 	height: 480px;
@@ -1757,6 +1758,7 @@ height: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .contact-navbar-content{
