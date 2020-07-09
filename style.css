@@ -925,6 +925,10 @@ input[name="r"]{
 		transition: all .5s linear;
 		
 	}
+	.design p{
+		width: 380px;
+		padding: 0 20px;
+	}
 	.menu{
 		padding: 0;
     padding-left: 30px;
