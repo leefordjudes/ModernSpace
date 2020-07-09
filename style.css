@@ -1030,14 +1030,14 @@ input[name="r"]{
 /* about */
 .about-navbar{
 	width:100%;
-	height:400px;
+	height:500px;
 	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.5)),url(img/a11.jpg);
-	background-position:center;
-	background-size:cover;
+/* 	background-position:center;
+	background-size:cover; */
 	background-attachment:fixed;
 }
 .about-navbar-content {
-	height: 400px;
+	height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1286,14 +1286,14 @@ input[name="r"]{
 /* service */
 .service-navbar{
 	width:100%;
-	height:400px;
+	height:500px;
 	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/s11.jpg);
-	background-position:center;
-	background-size:cover;
+/* 	background-position:center;
+	background-size:cover; */
 	background-attachment:fixed;
 }
 .service-navbar-content{
-	height: 400px;
+	height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1542,14 +1542,14 @@ background: red;color: white;padding: 10px
 
 .project-navbar{
 	width:100%;
-	height:400px;
+	height:500px;
 	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/pj.jpg);
-	background-position:center;
-	background-size:cover;
+/* 	background-position:center;
+	background-size:cover; */
 	background-attachment:fixed;
 }
 .project-navbar-content{
-	height: 480px;
+	height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
