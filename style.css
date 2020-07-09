@@ -1740,10 +1740,8 @@ background: red;color: white;padding: 10px
 
 .contact-navbar{
 	width:100%;
-	height:400px;
-	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/c6.jpg);
-	background-position:center;
-	background-size:cover;
+	height:500px;
+	background:linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/contactus.jpg);
 	background-attachment:fixed;
 }
 
