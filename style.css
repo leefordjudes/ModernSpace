@@ -1052,12 +1052,13 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight:600;
 }
 @media only screen and (max-width: 850px){
 	.about-navbar-content{
-		height: 400px
+		height: 400px;
+		font-size: 25px;
 	}
 }
 .about-main{
@@ -1303,7 +1304,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
 
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,8,0.2),rgba(0,0,8, 0.7)),url(img/s11.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0, 0.3)),url(img/s11.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1320,7 +1321,8 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
 }
 @media only screen and (max-width: 850px){
 	.service-navbar-content{
-		height: 400px
+		height: 400px;
+		font-size: 25px;
 	}
 }
 
@@ -1584,6 +1586,7 @@ background: red;color: white;padding: 10px
 @media only screen and (max-width: 850px){
 	.project-navbar-content{
 		height: 400px;
+		font-size: 25px;
 	}
 }
 
@@ -1769,7 +1772,7 @@ background: red;color: white;padding: 10px
 .contact-navbar{
 	width: 100%;
 	height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/contact.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/contact.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1788,6 +1791,7 @@ background: red;color: white;padding: 10px
 @media only screen and (max-width: 850px){
 	.contact-navbar-content{
 		height: 400px;
+		font-size: 25px;
 	}
 }
 .contact-content{
