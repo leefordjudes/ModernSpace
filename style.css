@@ -1754,7 +1754,7 @@ background: red;color: white;padding: 10px
 .contact-navbar{
 	width: 100%;
 	height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/c1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/contact.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
