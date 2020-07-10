@@ -1316,7 +1316,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
     justify-content: center;
     align-items: center;
 	color: #fff;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight:600;
 }
 @media only screen and (max-width: 850px){
@@ -1580,7 +1580,7 @@ background: red;color: white;padding: 10px
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-weight:600;
 }
 @media only screen and (max-width: 850px){
