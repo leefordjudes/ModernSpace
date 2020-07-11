@@ -1759,7 +1759,7 @@ background: red;color: white;padding: 10px
 	}
 }
 @media only screen and (max-width: 557px){
-	.res{
+	.mr-30{
 		margin-right:0;
 	}
 }
@@ -1769,7 +1769,7 @@ background: red;color: white;padding: 10px
 		margin-right:0
 	}
 	
-	.res{
+	.mr-30{
 		margin-right: 0;
 	}
 	.project-div{
