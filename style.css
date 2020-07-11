@@ -1658,7 +1658,8 @@ background: red;color: white;padding: 10px
   width: 300px;
 }
 .project-img-content{
-	display: flex;flex-direction: column;margin-top:20px
+	display: flex;flex-direction: column;margin-top:20px;
+	align-items:center;
 }
 
 .project-img-content .span{
