@@ -1748,10 +1748,14 @@ background: red;color: white;padding: 10px
 @media only screen and (max-width: 610px){
 	.project-img{
 		width: 150px;
+		height:160px;
 	}
 	.project-link{
 		font-size: 14px;
 		padding: 8px;
+	}
+	.project-div{
+		width: 230px;
 	}
 }
 @media only screen and (max-width: 550px){
