@@ -1661,6 +1661,10 @@ background: red;color: white;padding: 10px
 	display: flex;flex-direction: column;margin-top:20px
 }
 
+.project-img-content .span{
+	font-size: 13px;
+}
+
 @media only screen and (max-width: 1180px){
 	.project-img{
 		width:290px;
