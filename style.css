@@ -1739,6 +1739,9 @@ background: red;color: white;padding: 10px
 	.project-img{
 		width: 230px;
 	}
+	.project-flex1{
+		margin-right: 0px;
+	}
 }
 @media only screen and (max-width: 670px){
 	.project-img{
@@ -1751,8 +1754,9 @@ background: red;color: white;padding: 10px
 		height:160px;
 	}
 	.project-link{
-		font-size: 14px;
-		padding: 8px;
+		    margin-right: 5px;
+		    font-size: 13px;
+		    padding: 5px 10px;
 	}
 	.project-div{
 		width: 230px;
@@ -1776,6 +1780,11 @@ background: red;color: white;padding: 10px
 @media only screen and (max-width: 567px){
 	.mr-30{
 		margin-right:10px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.mr-30{
+		margin-right:0px;
 	}
 }
 /*____________________________________________________________________________________*/
