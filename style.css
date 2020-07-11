@@ -1717,16 +1717,10 @@ background: red;color: white;padding: 10px
 	}
 }
 @media only screen and (max-width: 830px){
-	.project-img{
-		    width: 180px;
-    height: 150px;
-
-	}
+	
 	.project-link{
 		font-size: 16px;
 	}
-}
-@media only screen and (max-width: 790px){
 	.project-img{
 		width: 250px;
 		height: 200px;
@@ -1738,8 +1732,8 @@ background: red;color: white;padding: 10px
 		justify-content: space-evenly;
 		flex-direction: row;
 	}
-	
 }
+
 @media only screen and (max-width: 730px){
 	.project-img{
 		width: 230px;
