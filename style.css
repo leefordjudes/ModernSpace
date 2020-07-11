@@ -1766,10 +1766,15 @@ background: red;color: white;padding: 10px
 	}
 	
 	.mr-30{
-		margin-right: 0;
+		margin-right: 0px;
 	}
 	.project-div{
 		width:300px;
+	}
+}
+@media only screen and (max-width: 567px){
+	.mr-30{
+		margin-right:10px;
 	}
 }
 /*____________________________________________________________________________________*/
