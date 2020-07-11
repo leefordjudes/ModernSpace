@@ -1747,7 +1747,7 @@ background: red;color: white;padding: 10px
 }
 @media only screen and (max-width: 610px){
 	.project-img{
-		width: 150px;
+		width: 180px;
 		height:160px;
 	}
 	.project-link{
@@ -1762,7 +1762,8 @@ background: red;color: white;padding: 10px
 @media only screen and (max-width: 600px){
 	.project-img{
 		width: 250px;
-		margin-right:0
+		margin-right:0;
+			height:200px;
 	}
 	
 	.mr-30{
