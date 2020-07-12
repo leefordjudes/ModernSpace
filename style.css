@@ -924,6 +924,9 @@ input[name="r"]{
 		label #one{
 		display:block;
 	}
+	.brand{
+		font-size:16px
+	}
 	.nav1{
 		display:flex;
 		justify-content:space-between;
@@ -1801,7 +1804,7 @@ background: red;color: white;padding: 10px
 
 @media only screen and (max-width: 600px){
 	.project-img{
-		width: 250px;
+		width: 230px;
 		margin-right:0;
 			height:200px;
 	}
