@@ -739,6 +739,12 @@ input[name="r"]{
 	  bottom: 220px;
   }
 }
+@media only screen and (max-width:930px){
+	.nav ul li a{
+		font-size: 13px;
+	}
+}
+
 @media only screen and (max-width: 890px){
 	.card{
 		width: 240px;
@@ -767,14 +773,19 @@ input[name="r"]{
 	padding: 0 30px;
 	}
 	.nav1 ul li a{
-	font-size: 14px;
+	font-size: 13px;
+	padding: 10px 8px;
+
 	}
 }
-@media only screen and (max-width: 850px){
-	.nav1 ul li a{
-		font-size: 14px;
-		padding: 10px 8px;
+@media only screen and (max-width:860px){
+	.brand{
+		font-size: 16px;
 	}
+	
+}
+@media only screen and (max-width: 850px){
+	
 	.design-align{
 		justify-content: space-evenly;
 	}
@@ -813,12 +824,13 @@ input[name="r"]{
 .add-mar{
 		margin-top: 50px;
 	}
+	.nav ul li a{
+		font-size:12px;
+	}
 }
 
 @media only screen and (max-width: 760px){
-	.nav1 ul li a{
-		font-size: 13px;
-	}
+
 	.choose-img img{
 		width: 400px;
 		height: 350px;
@@ -830,7 +842,9 @@ input[name="r"]{
 		font-size: 26px;
 		text-align:center;
 	}
-	
+		.brand {
+	font-size: 15px;
+	}
 	.progresss{
 		width:300px;
 	}
@@ -868,9 +882,7 @@ input[name="r"]{
 	.nav1 ul li a{
 	padding: 10px 5px;
 	}
-	.brand{
-	font-size: 17px;
-	}
+	
 	.banner-p{
 	font-size:17px;
 	}
@@ -1742,6 +1754,9 @@ background: red;color: white;padding: 10px
 	}
 	.project-flex1{
 		margin-right: 0px;
+	}
+	.project-div{
+		width:280px;
 	}
 }
 @media only screen and (max-width: 670px){
