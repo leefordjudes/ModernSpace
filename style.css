@@ -1804,7 +1804,7 @@ background: red;color: white;padding: 10px
 
 @media only screen and (max-width: 600px){
 	.project-img{
-		width: 250px;
+		width: 260px;
 		margin-right:0;
 			height:200px;
 	}
