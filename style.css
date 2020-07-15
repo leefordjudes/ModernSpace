@@ -249,6 +249,7 @@ margin-right:10px;
   height: 660px;
   background-size: cover;
   overflow: hidden;
+	position:relative;
 }
 input[name="r"]{
   position: absolute;
