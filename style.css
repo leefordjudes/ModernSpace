@@ -1630,7 +1630,7 @@ background: red;color: white;padding: 10px
   justify-content:center;
 }
 
-.project-link{
+.project-section{
   background: #8c868c2b;
   padding: 10px 15px;
   border-radius: 5px;
@@ -1640,7 +1640,7 @@ background: red;color: white;padding: 10px
   font-weight: 600;
   color: #4f4d4d;
 }
-.project-link:hover{
+.project-section:hover{
   color: orangered;
 
 }
@@ -1707,7 +1707,7 @@ background: red;color: white;padding: 10px
 	.project-img{
 		width: 200px;
 	}
-	.project-link{
+	.project-section{
 		padding: 8px 10px;
 		font-size: 17px;
 	}
@@ -1732,7 +1732,7 @@ background: red;color: white;padding: 10px
 }
 @media only screen and (max-width: 830px){
 	
-	.project-link{
+	.project-section{
 		font-size: 16px;
 	}
 	.project-img{
@@ -1777,7 +1777,7 @@ background: red;color: white;padding: 10px
 		width: 180px;
 		height:160px;
 	}
-	.project-link{
+	.project-section{
 		    margin-right: 5px;
 		    font-size: 13px;
 		    padding: 5px 10px;
