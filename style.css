@@ -191,7 +191,7 @@ label #one, label #two{
 	font-size: 23px;
 	color:white;
 	float: right;
-	margin-right:40px;
+	padding-right:20px;
 	cursor:pointer;
 	display:none;
 
@@ -920,8 +920,12 @@ input[name="r"]{
 		display:block;
 	}
 	.brand{
-		font-size:16px
+		font-size:16px;
 	}
+	.hea-logo img {
+	    height: 35px;
+	    width: 60px;
+	}	
 	.nav1{
 		display:flex;
 		justify-content:space-between;
@@ -948,7 +952,7 @@ input[name="r"]{
 	}
 	.menu{
 		padding: 0;
-    padding-left: 30px;
+    padding-left: 20px;
 	height: 70px;
 	}		
 	
@@ -2066,6 +2070,10 @@ textarea{
 	.foo-logo{
 	font-size: 50px;
 	color: #fff;
+}
+	.footer-logo img {
+    height: 50px;
+    width: 100px;
 }
 .social-icons ul li a{
 	height: 35px;
