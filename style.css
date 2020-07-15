@@ -825,9 +825,10 @@ input[name="r"]{
 .add-mar{
 		margin-top: 50px;
 	}
-	.nav ul li a{
-		font-size:12px;
-	}
+		.nav1 ul li a {
+    font-size: 12px;
+    padding: 10px 5px;
+}
 }
 
 @media only screen and (max-width: 760px){
@@ -873,10 +874,7 @@ input[name="r"]{
   }
 
   
-	.nav1 ul li a {
-    font-size: 12px;
-    padding: 10px 5px;
-}
+
 }
 @media only screen and (max-width: 715px){
 	.float{
