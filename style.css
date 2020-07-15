@@ -647,6 +647,7 @@ input[name="r"]{
 .carousel-indicators{
 	bottom: -70px;
 	z-index: 0 !important;
+	
 }
 .carousel-indicators img{
 	height: 100px;
@@ -991,8 +992,8 @@ input[name="r"]{
 		display: block;
 	}
 	.carousel-indicators img{
-		height: 65px !important;
-		width: 65px !important;
+		height: 55px !important;
+		width: 55px !important;
 	}
 	
 }
@@ -1012,7 +1013,7 @@ input[name="r"]{
 @media only screen and (max-width: 540px){
 	.carousel-indicators {
     width: initial !important;
-    left: 45% !important;
+		left:37% !important;
 }
 	.wrapper1{
 		width:300px;
