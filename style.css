@@ -904,7 +904,7 @@ input[name="r"]{
 		font-size: 16px;
 	}
 	.line span{
-		width: 320px;
+		width: 400px;
 	}
 	.menu{
 	padding: 0 10px;
@@ -1035,6 +1035,9 @@ input[name="r"]{
 	.carousel-indicators {
     		width: initial !important;
 		left:37% !important;
+	}
+	.line span{
+		width: 320px;
 	}
 }
 
