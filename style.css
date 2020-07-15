@@ -279,14 +279,14 @@ input[name="r"]{
 }
 
 .index-banner{
-	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/ph1.jpg);
+	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/b1.jpg);
 	background-size:cover;
 	background-position: center;
     background-attachment: fixed;
 }
 
 .index-banner1{
-	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/ph11.jpg);
+	background:linear-gradient(rgba(0,0,8,0.1),rgba(0,0,8, 0.1)),url(img/b3.jpg);
 	background-size:cover;
 	background-position: center;
     background-attachment: fixed;
