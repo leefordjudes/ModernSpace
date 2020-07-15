@@ -51,7 +51,7 @@ $(document).ready(function () {
  
 //service-page
 $(document).ready(function () {
-  $('.service-link .service-subtitle').click(function () {
+  $('.service-section .service-subtitle').click(function () {
     $('.service-subtitle').removeClass('service-active')
     $(this).addClass('service-active')
   });
