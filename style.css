@@ -738,9 +738,7 @@ input[name="r"]{
   .slidershow{
 	  height:480px;
   }
-  .navigation{
-	  bottom: 220px;
-  }
+
 	.brand{
 		font-size: 16px;
 	}
@@ -772,9 +770,7 @@ input[name="r"]{
   .slidershow{
 	  height:450px;
   }
-  .navigation{
-	  bottom: 220px;
-  }
+  
 	.menu{
 	padding: 0 30px;
 	}
@@ -820,9 +816,7 @@ input[name="r"]{
   .slidershow{
 	  height:400px;
   }
-  .navigation{
-	  bottom: 270px;
-  }
+  
   
 }
 
@@ -877,9 +871,7 @@ input[name="r"]{
     padding: 5px 10px
   }
 
-  .navigation{
-	  bottom: 290px;
-  }
+  
 	.nav1 ul li a {
     font-size: 12px;
     padding: 10px 5px;
@@ -1027,37 +1019,15 @@ input[name="r"]{
 		width:300px;
 	}
 }
-@media only screen and (max-width: 414px){
-	.navigation{
-		bottom: 370px;
-	}
-}
+
 @media only screen and (max-width: 411px){
-	.navigation{
-		bottom: 450px;
-	}
+	
 	.design p{
 		width: 370px;
 		padding: 0 20px;
 	}
 }
 
-@media only screen and (max-width: 375px){
-	.navigation{
-		bottom: 300px;
-	}
-}
-@media only screen and (max-width: 360px){
-	.navigation{
-		bottom: 290px;
-	}
-}
-
-@media only screen and (max-width: 320px){
-	.navigation{
-		bottom: 200px;
-	}
-}
 /*_______________________________________________________________________________________*/
 
 /* about */
