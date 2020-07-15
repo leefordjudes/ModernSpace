@@ -1013,7 +1013,7 @@ input[name="r"]{
 @media only screen and (max-width: 540px){
 	.carousel-indicators {
     width: initial !important;
-		left:37% !important;
+		left:45% !important;
 }
 	.wrapper1{
 		width:300px;
@@ -1025,6 +1025,12 @@ input[name="r"]{
 	.design p{
 		width: 370px;
 		padding: 0 20px;
+	}
+}
+@media only screen and (max-width: 320px){
+	.carousel-indicators {
+    		width: initial !important;
+		left:37% !important;
 	}
 }
 
