@@ -1383,7 +1383,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
   border-radius: 10px;
   width: 60px
 }
-.service-link{
+.service-section{
   padding-bottom: 40px;
   justify-content: space-around;
 }
