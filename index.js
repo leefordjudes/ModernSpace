@@ -44,8 +44,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.project-flex1 .pjt-section').click(function () {
-    $('.pjt-section').removeClass("ad-active");
-    $(this).addClass("ad-active");
+    $('.pjt-section').removeClass("project-active");
+    $(this).addClass("project-active");
   });
 });
  
