@@ -720,13 +720,13 @@ input[name="r"]{
 }
 
 @media only screen and (max-width: 1150px){
-	.ad-mr{
+	.home-mr{
 		margin-right:10px;
 	}
 }
 
 @media only screen and (max-width: 1025px){
-	.ad-mr, .re-mr{
+	.home-mr, .re-mr{
 		margin-right:0px;
 	}
 }
