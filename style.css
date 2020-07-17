@@ -641,6 +641,7 @@ input[name="r"]{
 .test-slide{
 	max-width:600px;
 	margin:  auto;
+	height:400px;
 	padding:30px;
 }
 .carousel-indicators{
@@ -664,7 +665,7 @@ input[name="r"]{
 .test-slide p{
 	text-align:center;
 	font-family: 'Courgette', cursive;
-	font-style: italic;
+	font-style: italic;                                   
 	padding:10px 15px;
 	margin-bottom:0;
 	font-weight: 500;
