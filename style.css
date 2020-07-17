@@ -1002,7 +1002,7 @@ input[name="r"]{
 	
 }
 @media only screen and (max-width: 600px){
-	.add-mar{
+	.margin-change{
 		margin-top:0;
 	}
 	.design-align div{
