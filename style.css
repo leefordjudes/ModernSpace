@@ -823,13 +823,13 @@ input[name="r"]{
 }
 
 @media only screen and (max-width: 795px){
-.add-mar{
-		margin-top: 50px;
+	.margin-change{
+			margin-top: 50px;
 	}
-		.nav1 ul li a {
-    font-size: 12px;
-    padding: 10px 5px;
-}
+	.nav1 ul li a {
+	    font-size: 12px;
+	    padding: 10px 5px;
+	}
 }
 
 @media only screen and (max-width: 760px){
