@@ -641,7 +641,6 @@ input[name="r"]{
 .test-slide{
 	max-width:600px;
 	margin:  auto;
-	height:400px;
 	padding:30px;
 }
 .carousel-indicators{
@@ -1024,6 +1023,12 @@ input[name="r"]{
 	}
 }
 
+@media only screen and (max-width:414px){
+	.test-slide{
+		height: 400px;
+	}
+}
+
 @media only screen and (max-width: 411px){
 	
 	.design p{
@@ -1038,6 +1043,9 @@ input[name="r"]{
 	}
 	.line span{
 		width: 320px;
+	}
+	.test-slide{
+		height: 470px;
 	}
 }
 
