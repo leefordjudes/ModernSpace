@@ -1063,7 +1063,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
 }
 
 .about-navbar-content {
-	height: 480px;
+	height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1073,7 +1073,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
 }
 @media only screen and (max-width: 850px){
 	.about-navbar-content{
-		height: 400px;
+		height: 480px;
 		font-size: 25px;
 	}
 }
@@ -1327,7 +1327,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
 	background-position: center;
 }
 .service-navbar-content{
-	height: 480px;
+	height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1337,7 +1337,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2)),url(img/aboutus.we
 }
 @media only screen and (max-width: 850px){
 	.service-navbar-content{
-		height: 400px;
+		height: 480px;
 		font-size: 25px;
 	}
 }
@@ -1591,7 +1591,7 @@ background: red;color: white;padding: 10px
     background-repeat: no-repeat;
 }
 .project-navbar-content{
-    height: 480px;
+    height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1601,7 +1601,7 @@ background: red;color: white;padding: 10px
 }
 @media only screen and (max-width: 850px){
 	.project-navbar-content{
-		height: 400px;
+		height: 480px;
 		font-size: 25px;
 	}
 }
@@ -1835,7 +1835,7 @@ background: red;color: white;padding: 10px
 }
 
 .contact-navbar-content{
-	height: 480px;
+	height: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1845,7 +1845,7 @@ background: red;color: white;padding: 10px
 }
 @media only screen and (max-width: 850px){
 	.contact-navbar-content{
-		height: 400px;
+		height: 480px;
 		font-size: 25px;
 	}
 }
