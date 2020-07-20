@@ -1878,7 +1878,7 @@ textarea{
 	resize:vertical;
 }
 
-.mapouter{
+/* .mapouter{
 	position:relative;
 	text-align:right;
 	height:450px;
@@ -1888,7 +1888,7 @@ textarea{
 	overflow:hidden;
 	background:none!important;
 	height:450px;
-}
+} */
 .long-dash{
   border: 2px solid orangered;
   width: 60px;
