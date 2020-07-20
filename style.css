@@ -2036,6 +2036,14 @@ textarea{
 	height:50px;
 	width:120px;
 }
+
+.footer-span{
+	font-size: 12px;
+	color:white;
+	text-align:center;
+	width: 145px;
+	letter-spacing: 1mm;
+}
 .foo-icon{
   color: white;
   font-size: 16px;
