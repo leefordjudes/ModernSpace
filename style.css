@@ -141,6 +141,10 @@ a{
     width: 50px;
 }
 
+.scrollUp:hover{
+	background-color: #ff7300;
+}
+
 .fa-angle-double-up{
 	color: #fff;
 }
@@ -1975,9 +1979,19 @@ textarea{
   border-radius: 5px;
   cursor: pointer;
 }
-@media only screen and (max-width: 975px){
+@media only screen and (max-width: 1035px){
 	.contact-box{
 		width: 250px;
+	}
+}
+@media only screen and (max-width: 975px){
+	.contact-box{
+		width: 230px;
+	}
+}
+@media only screen and (max-width: 950px){
+	.contact-box{
+		width: 200px;
 	}
 }
 @media only screen and (max-width: 860px){
@@ -1987,12 +2001,9 @@ textarea{
 	.contact-subtitle{
 		font-size: 18px;
 	}
-	.contact-box{
-		width: 230px;
-	}
 }
 
-@media only screen and (max-width:765px){
+@media only screen and (max-width:796px){
 	.margin-50{
 	margin-bottom:50px;
 	}
@@ -2025,8 +2036,8 @@ textarea{
   font-size: 15px
 }
 
-.footer-link a:hover, .footer-link span:hover{
-	color:white;
+.footer-link a:hover{
+	color:#525050 !important;
 }
 
 .f-list {
