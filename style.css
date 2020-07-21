@@ -476,7 +476,7 @@ input[name="r"]{
     align-items: center;
     justify-content: center;
     color: orangered;
-    font-size: 23px;
+    font-size: 23px !important;
 }
 
 .content{
@@ -709,13 +709,13 @@ input[name="r"]{
 
 .quote{
   text-align: start;
-  font-size: 25px;
+  font-size: 25px !important;
   color: orangered;
   margin-left:30px;
 }
 .quote-r{
 	float:right;
-  font-size: 25px;
+  font-size: 25px !important;
   color: orangered;
   margin-right:30px
 }
@@ -2037,6 +2037,7 @@ textarea{
   color: white;
   margin-right: 1.5rem;
   margin-top: 0.3rem;
+	font-size: 19px;
 }
 
 .f-lists {
